@@ -10,8 +10,6 @@ After completing the Core Undergraduate Curriculum, learners should select **2 t
 - **[Hemispheric Geopolitics, Borders, and Transnational Migration](#hemispheric-geopolitics-borders-and-transnational-migration):** Explores asymmetrical inter-American relations, border regimes, transit corridors, diaspora networks, and illicit transnational economies.
 - **[Gender, Feminist Political Ecology, and Queer Mobilizations](#gender-feminist-political-ecology-and-queer-mobilizations):** Assesses decolonial feminisms, anti-femicide legal mobilization, territorial care defense, and LGBTQ+ citizenship struggles.
 
----
-
 ## Decoloniality, Indigenous Autonomy, and Afro-Latin Politics
 
 | Topic | Why Study | Resources |
@@ -19,8 +17,6 @@ After completing the Core Undergraduate Curriculum, learners should select **2 t
 | Decolonial Epistemology and the Modernity/Coloniality Matrix | Investigates how European colonial structures continue to shape modern knowledge systems, racial hierarchies, and global capitalism. Provides critical theoretical tools to challenge Eurocentric frameworks within regional analysis. | - *The Idea of Latin America* – Walter D. Mignolo (Wiley-Blackwell)<br>- "Coloniality of Power, Eurocentrism, and Latin America" – Aníbal Quijano (*Nepantla: Views from South*, 2000)<br>- **[LASA Section on Indigenous Peoples and Decoloniality](https://lasaweb.org/)** (Latin American Studies Association) |
 | Indigenous Autonomy, Customary Law, and Plurinationalism | Analyzes how Indigenous social movements (e.g., Zapatismo in Mexico, CONAIE in Ecuador, and the MAS in Bolivia) have reshaped constitutional legal structures, customary jurisprudence, and municipal governance. | - *Courting Democracy in Mexico: Party Machines and Civil Society* – Todd A. Eisenstadt (Cambridge University Press)<br>- *Pachakutik: Indigenous Politics and Western Hegemony in Ecuador* – Marc Becker (Palgrave Macmillan)<br>- **[Indigenous Latin America in the Twenty-First Century](https://openknowledge.worldbank.org/handle/10986/23751)** (World Bank Open Knowledge Repository) |
 | Afro-Latin Racial Formations, Quilombos, and Territorial Rights | Examines the myth of "racial democracy," structural racism, quilombo/palenque ancestral land demarcations, and Afro-descendant citizenship struggles across Brazil, Colombia, and the Caribbean. | - *Afro-Latin America, 1800–2000* – George Reid Andrews (Oxford University Press)<br>- *Black in Latin America* – Henry Louis Gates Jr. (NYU Press)<br>- **[Afro-Latin American Research Institute (ALARI)](https://alari.fas.harvard.edu/)** (Harvard University Hutchins Center) |
-
----
 
 ## Political Economy, Neo-Extractivism, and Environmental Justice
 
@@ -30,8 +26,6 @@ After completing the Core Undergraduate Curriculum, learners should select **2 t
 | Agrarian Reform, Peasant Movements, and Agribusiness Frontiers | Investigates rural land concentration, peasant mobilizations such as Brazil's Landless Workers' Movement (MST), and ecological degradation caused by industrial monocultures in the Amazon and Cerrado. | - *Peasants and Globalization: Political Economy, Rural Transformation and the Agrarian Question* – A. Haroon Akram-Lodhi & Cristóbal Kay, Eds. (Routledge)<br>- *To Inherit the Earth: The Landless Movement and the Struggle for a New Brazil* – Angus Wright & Wendy Wolford (Food First Books) |
 | Territorial Defense, Water Conflicts, and Rights of Nature | Explores community resistance to mega-dams, mining concessions, and logging, while analyzing legal paradigms such as *Buen Vivir* and constitutional rights for ecosystems. | - *Subterranean Struggles: New Dynamics of Mining, Oil, and Gas in Latin America* – Anthony Bebbington & Jeffrey T. Bury, Eds. (University of Texas Press)<br>- **[Environmental Justice Atlas (EJAtlas) – Latin America Section](https://ejatlas.org/)** (Interactive Socio-Environmental Conflict Database)<br>- **[UNEP Latin America and the Caribbean Hub](https://www.unep.org/regions/latin-america-and-caribbean)** (United Nations Environment Programme) |
 
----
-
 ## State Violence, Authoritarianism, and Transitional Memory
 
 | Topic | Why Study | Resources |
@@ -40,8 +34,6 @@ After completing the Core Undergraduate Curriculum, learners should select **2 t
 | Armed Revolutionary Movements and Insurgency | Analyzes 20th-century guerrilla insurgencies (such as in Cuba, Nicaragua, El Salvador, Peru, and Colombia), ideological doctrines, counterinsurgency strategies, and peace accord transitions. | - *Guerrillas and Revolution in Latin America* – Timothy P. Wickham-Crowley (Princeton University Press)<br>- *The Last Colonial Massacre: Latin America in the Cold War* – Greg Grandin (University of Chicago Press) |
 | Transitional Justice, Forensic Truth, and Memory Politics | Explores truth and reconciliation commissions, forensic anthropology identification, site-based memorialization, and landmark legal prosecutions of state actors for crimes against humanity. | - *State Terror and the Politics of Memory in Latin America* – Silvia R. Tandeciarz (Palgrave Macmillan)<br>- **[Inter-American Commission on Human Rights (IACHR) Thematic Reports](https://www.oas.org/en/iachr/reports/thematic.asp)** (Organization of American States)<br>- **[Memoria Abierta](https://memoriaabierta.org.ar/)** (Human Rights and Historical Memory Digital Archive) |
 
----
-
 ## Hemispheric Geopolitics, Borders, and Transnational Migration
 
 | Topic | Why Study | Resources |
@@ -49,8 +41,6 @@ After completing the Core Undergraduate Curriculum, learners should select **2 t
 | U.S. Imperialism, Interventions, and Hemispheric Hegemony | Deconstructs two centuries of U.S. foreign policy doctrine (Monroe Doctrine, dollar diplomacy, Cold War covert action, and democracy promotion) and its consequences for regional sovereignty. | - **[Beneath the United States: A History of U.S. Policy Toward Latin America](https://archive.org/details/beneathunitedsta00scho)** – Lars Schoultz (Harvard University Press / Internet Archive)<br>- **[Empire's Workshop: Latin America, the United States, and the Rise of the New Imperialism](https://archive.org/details/empiresworkshopl00gran)** – Greg Grandin (Metropolitan Books / Internet Archive) |
 | Transnational Migration Corridors and Border Externalization | Examines transit pathways (such as the Central American corridor, Darién Gap, and Mexico-U.S. border), externalized border enforcement regimes, asylum law, and the structural drivers of displacement. | - *The Land of Open Graves: Living and Dying on the Migrant Trail* – Jason De León (University of California Press)<br>- **[Migration Policy Institute – Latin America and Caribbean Initiative](https://www.migrationpolicy.org/programs/latin-america-caribbean-initiative)** (MPI Policy & Research Hub)<br>- **[CLACSO Working Group on Critical Border and Migration Studies](https://www.clacso.org/)** (Consejo Latinoamericano de Ciencias Sociales) |
 | Transnational Illicit Economies and Organized Crime | Analyzes drug trafficking organizations, narco-rents, illicit financial flows, state complicity, and the unintended human security costs of militarized counternarcotics policies. | - *The Andean Cocaine Industry: A Global History* – Paul Gootenberg (University of North Carolina Press / Oxford Academic)<br>- *El Narco: Inside Mexico's Criminal Insurgency* – Ioan Grillo (Bloomsbury Press)<br>- **[InSight Crime](https://insightcrime.org/)** (Research and Investigation Portal on Organized Crime in the Americas) |
-
----
 
 ## Gender, Feminist Political Ecology, and Queer Mobilizations
 

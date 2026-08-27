@@ -2,8 +2,6 @@
 
 This curated bibliography highlights transformative books, seminal essays, foundational primary texts, and landmark theoretical monographs in **Latin American Studies**. Rather than introductory survey textbooks, these works represent milestone intellectual breakthroughs that formulated key paradigms—such as dependency theory, critical pedagogy, the coloniality of power, and magical realism—or documented crucial struggles for human rights and regional sovereignty.
 
----
-
 ## Foundational Political Thought & Anti-Imperialism
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -13,8 +11,6 @@ This curated bibliography highlights transformative books, seminal essays, found
 | [*Pedagogy of the Oppressed*](https://archive.org/details/pedagogyofoppres00frei_0) | Paulo Freire | Landmark Monograph | Formulated critical pedagogy, dialogic education, and conscientization to dismantle the internalized oppression of marginalized communities. |
 | *Caliban: Notes Toward a Discussion of Culture in Our America* | Roberto Fernández Retamar | Seminal Essay | Reclaims Shakespeare's Caliban as a revolutionary metaphor for Latin American and Caribbean hybridity, anti-colonial resistance, and dialectical synthesis. |
 
----
-
 ## Dependency Theory, Structuralism & Political Economy
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -23,8 +19,6 @@ This curated bibliography highlights transformative books, seminal essays, found
 | *Dependency and Development in Latin America* | Fernando Henrique Cardoso & Enzo Faletto | Landmark Monograph | The definitive sociological treatise on dependency theory, demonstrating how internal class alliances intersect with global capitalism to generate "associated-dependent development." |
 | *The Economic Development of Latin America and Its Principal Problems* | Raúl Prebisch | Landmark Policy Monograph | Formulated the structuralist Prebisch-Singer thesis on the declining terms of trade between the industrial center and commodity-exporting periphery, launching ECLAC development economics. |
 | *Latin America: Underdevelopment or Revolution* | Andre Gunder Frank | Monograph / Essays | Articulated the influential "development of underdevelopment" thesis, arguing that peripheral poverty is an active structural byproduct of metropolitan capital accumulation. |
-
----
 
 ## Decoloniality, Race, Indigeneity & Gender
 
@@ -36,8 +30,6 @@ This curated bibliography highlights transformative books, seminal essays, found
 | *The War Against Women* (*La guerra contra las mujeres*) | Rita Laura Segato | Monograph | Provides a pioneering anthropological framework for understanding femicide and territorial violence as systemic languages of sovereign power in informal and illicit economies. |
 | *Afro-Latin America, 1800–2000* | George Reid Andrews | Landmark Monograph | A definitive hemispheric history of Afro-descendant populations, documenting the destruction of slavery, the persistent myth of "racial democracy," and modern civil rights mobilizations. |
 
----
-
 ## Memory, State Terror & Human Rights
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -46,8 +38,6 @@ This curated bibliography highlights transformative books, seminal essays, found
 | *The Last Colonial Massacre: Latin America in the Cold War* | Greg Grandin | Monograph | Examines the Guatemalan genocide and Cold War counterinsurgency to illustrate how state violence shattered grassroots democratic movements and transformed regional political subjectivity. |
 | *Predatory States: Operation Condor and Covert War in Latin America* | J. Patrice McSherry | Monograph | Uncovers the secret transnational military intelligence network coordinated across the Southern Cone with U.S. backing to conduct cross-border assassinations and state terror. |
 | *State Terror and the Politics of Memory in Latin America* | Silvia R. Tandeciarz | Monograph | Explores how former detention facilities, visual memorials, and archival artifacts function as active battlegrounds for transitional justice, collective memory, and public mourning. |
-
----
 
 ## Cultural Imagination, Poetics & Literary Essays
 
