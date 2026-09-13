@@ -3,14 +3,7 @@ title: Hocbigg - Latin American Studies
 description: Path to a free self-taught education in Latin American Studies!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 The Latin American Studies curriculum is a **complete education in Latin American Studies** using online materials.
 
@@ -18,77 +11,90 @@ The interdisciplinary nature of the field draws from history, political science,
 
 Language proficiency (Spanish or Portuguese) is integrated throughout, as it is essential for primary sources and deeper engagement. Aim for intermediate reading/speaking proficiency by the end of the Core Phase.
 
-## Organization
-
-This repository is organized into 2 main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
-**[How to contribute](/CONTRIBUTING.html)**
-
-# Communities
+## Communities
 
 - You can also interact through [GitHub issues](https://github.com/hocbigg/latin-american-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [Language Study](#language-study)
-- [Foundations of Latin American Studies](#foundations-of-latin-american-studies)
-- [Core Disciplinary Domains](#core-disciplinary-domains)
+### Language Preparation: Spanish and Portuguese
 
-## How to use this curriculum
+Develops functional communicative ability and reading comprehension in Spanish or Portuguese to facilitate direct engagement with regional cultural sources, historical records, and scholarly perspectives.
 
-### Core Sections
+[Destinos: An Introduction to Spanish (Annenberg Learner / WGBH)](https://www.learner.org/series/destinos-an-introduction-to-spanish/) - A 52-episode immersive telenovela-style video course covering foundational grammar, everyday vocabulary, and regional pronunciation across Spain, Argentina, Puerto Rico, and Mexico.
 
-Everyone should complete the following sections in sequence:
+[Tá Falado: Brazilian Portuguese Pronunciation and Grammar for Spanish Speakers (COERLL, University of Texas at Austin)](https://www.coerll.utexas.edu/brazilpod/tafalado/) - Builds on prior Spanish training or Romance language familiarity through podcast modules that systematically address Portuguese phonology, nasal vowels, and distinct grammatical contrasts.
 
-1. **Foundations of Latin American Studies**
-   (Start here – this section introduces the interdisciplinary scope, geography, and pre-Columbian and colonial foundations of the region.)
+### Scope and Historiography of Latin American Studies
 
-2. **Core Disciplinary Domains**
-   (Work through topics 4–8 in the order listed. These five areas – modern history, politics, economy, society/anthropology, and culture/arts – constitute the central pillars of undergraduate Latin American Studies.)
+Examines the interdisciplinary origins of Latin American Studies, tracing how historical narratives, geopolitical constructs, and area studies scholarship have conceptualized the region as a distinct yet diverse entity.
 
-## Language Study
+[Understanding Contemporary Latin America (Lynne Rienner Publishers)](https://books.google.com/books?isbn=9781588267917) - Serves as the primary survey text, delivering cross-disciplinary introductory essays that frame the historical, political, geographic, and cultural dynamics shared across the region.
 
-Learning a Romance language like **Spanish** or **Portuguese** in parallel with this curriculum greatly enhances comprehension of primary sources (literature, historical documents, media) and regional cultural nuances. Dedicate 5–10 hours per week to one language via structured coursework (e.g., edX/university open language courses) or comprehensive immersion frameworks (podcasts, regional news, literature; consult [the Refold guide](https://refold.la/) for self-directed immersion strategies).
+[Introduction to Latin American Studies (MIT OpenCourseWare)](https://ocw.mit.edu/courses/17-55j-introduction-to-latin-american-studies-fall-2006/) - Provides an undergraduate syllabus, organized lecture reading guides, and structured essay assignments designed to be used alongside a general introductory textbook.
 
-Progress from beginner to intermediate proficiency while studying the main academic topics, focusing on regional variants (e.g., Mexican, Andean, Caribbean Spanish, or Brazilian Portuguese) and recognizing the enduring linguistic presence of Indigenous languages (such as Quechua, Guaraní, Nahuatl, and Maya).
+### Geography, Environment, and Spatial Ecology
 
-## Foundations of Latin American Studies
+Surveys the physical topography, altitudinal ecological zonation, climate systems, and natural resource endowments that determine settlement patterns, economic activity, and environmental vulnerability in the Americas.
 
-| # | Topic | Rationale | Book / Text | Online Resource |
-| :---: | --- | --- | --- | --- |
-| 1 | What Is Latin American Studies? (Scope & Methods) | Establishes interdisciplinarity, comparative methodology, and the historical construction of Latin America as a region. | *[Understanding Contemporary Latin America](https://books.google.com/books?isbn=9781588267917)* – Richard S. Hillman & Thomas J. D'Agostino, Eds. (Lynne Rienner Publishers) | **[Introduction to Latin American Studies](https://ocw.mit.edu/courses/17-55j-introduction-to-latin-american-studies-fall-2006/)** (MIT OpenCourseWare) |
-| 2 | Geography, Environment, and Regional Diversity | Physical landscapes, ecological altitudinal zones, climate, and natural resources shape settlement, economy, and spatial inequality. | *[Latin America and the Caribbean: Lands and Peoples](https://books.google.com/books?isbn=9780190497828)* – David L. Clawson (Oxford University Press) | **[UNEP Latin America and the Caribbean](https://www.unep.org/regions/latin-america-and-caribbean)** & **[World Bank Open Data: Latin America & Caribbean](https://data.worldbank.org/region/latin-america-and-caribbean)** |
-| 3 | Pre-Columbian Civilizations and Colonial Foundations | Indigenous civilizations (Maya, Aztec, Inca), the Iberian conquest, colonial institutions, the transatlantic slave trade, and caste structures underpin modern society. | **[Colonial Latin America](https://archive.org/details/coloniallatiname0000burk)** – Mark A. Burkholder & Lyman L. Johnson (Oxford University Press / Internet Archive) | **[The Conquest of America](https://ocw.mit.edu/courses/21a-441-the-conquest-of-america-spring-2004/)** (MIT OpenCourseWare) |
+[Latin America and the Caribbean: Lands and Peoples (Oxford University Press)](https://books.google.com/books?isbn=9780190497828) - The foundational regional geography textbook exploring physical landscapes, cultural adaptations, agro-ecological zones, and rapid urban growth across the subcontinent.
 
-## Core Disciplinary Domains
+[World Regional Geography: Middle and South America (Open Textbook Library / Caitlin Finlayson)](https://open.umn.edu/opentextbooks/textbooks/world-regional-geography) - A peer-reviewed, open-access textbook alternative to Clawson that outlines the primary physiographic regions, core-periphery development patterns, and environmental degradation in Latin America.
 
-| # | Topic | Rationale | Book / Text | Online Resource |
-| :---: | --- | --- | --- | --- |
-| 4 | Modern Latin American History (Independence–Present) | Nation-building, 19th-century liberalism/caudillismo, 20th-century revolutions, Cold War authoritarianism, and democratic transitions. | **[Born in Blood and Fire: A Concise History of Latin America](https://archive.org/details/borninbloodfirec00chas_0)** & *[Born in Blood and Fire: Latin American Voices](https://books.google.com/books?isbn=9780393283068)* – John Charles Chasteen (W. W. Norton / Internet Archive) | **[Modern Latin America, 1808–Present](https://ocw.mit.edu/courses/21h-802-modern-latin-america-1808-present-revolution-dictatorship-democracy-spring-2005/)** (MIT OpenCourseWare) |
-| 5 | Politics and Government | State institutions, presidentialism, populism, military regimes, democratic consolidation, and contemporary political movements. | *[Latin American Politics and Development](https://books.google.com/books?isbn=9780813350509)* – Harvey F. Kline, Christine J. Wade, & Howard J. Wiarda (Routledge) | **[David Rockefeller Center for Latin American Studies (DRCLAS)](https://drclas.harvard.edu/)** (Harvard University Public Events & Lectures) |
-| 6 | Economy and Development | Structural inequality, export-led growth, Import Substitution Industrialization (ISI), dependency theory, neoliberal reforms, and neo-extractivism. | UN ECLAC (CEPAL) – **[Introductory Reports on Latin American Development](https://www.cepal.org/en/publications)** + **[The Economic History of Latin America since Independence](https://archive.org/details/economichistoryo0000bulm_f8b7)** – Victor Bulmer-Thomas (Cambridge University Press / Internet Archive) | **[CEPALSTAT / ECLAC Data and Statistics Portal](https://www.cepal.org/en)** (United Nations ECLAC) |
-| 7 | Society, Anthropology, and Social Structures | Race, ethnicity, mestizaje, gender, urbanization, Indigenous autonomy, Afro-Latin identities, and grassroots social movements. | **[The Anthropology of Latin America and the Caribbean](https://archive.org/details/anthropologyofla0000sana)** – Harry Sanabria (Routledge / Internet Archive) | **[DRCLAS Public Seminars on Social Movements & Identity](https://drclas.harvard.edu/)** (Harvard University) |
-| 8 | Culture, Literature, and Media | Literary traditions (the Latin American "Boom", magical realism), visual arts, muralism, music, cinema, and mass media as expressions of identity and resistance. | *[The Cambridge Companion to Modern Latin American Culture](https://books.google.com/books?isbn=9780521636513)* – John King, Ed. (Cambridge University Press) & *[The Cambridge Companion to the Latin American Novel](https://books.google.com/books?isbn=9780521825337)* – Efraín Kristal, Ed. (Cambridge University Press) | **[Latin American Culture](https://www.classcentral.com/course/latinamericanculture-717)** (Tecnológico de Monterrey, Coursera – free to audit) |
+### Pre-Columbian Civilizations and the Colonial Encounter
 
-## Congratulations
+Investigates advanced Indigenous states, the Spanish and Portuguese conquests, colonial extractive institutions, the transatlantic slave trade, and the formation of multiethnic caste societies.
 
-After completing the requirements of the curriculum above, you will have completed the foundational core requirements of an undergraduate program in Latin American Studies, preparing you for advanced research and regional specializations. Congratulations!
+[Colonial Latin America (Oxford University Press / Internet Archive)](https://archive.org/details/coloniallatiname0000burk) - The standard historical textbook covering administrative institutions, Catholic evangelization, coercive labor systems, and racial classifications from pre-contact through the early nineteenth century.
 
-# Code of conduct
+[The Conquest of America (MIT OpenCourseWare)](https://ocw.mit.edu/courses/21a-441-the-conquest-of-america-spring-2004/) - An anthropology course syllabus and reading guide focusing on contact encounters, imperial chronicles, and Indigenous resistance strategies; use to structure primary-source analysis alongside Burkholder and Johnson.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[A Brief Account of the Destruction of the Indies (Project Gutenberg / Bartolomé de las Casas)](https://www.gutenberg.org/ebooks/20321) - A seminal public-domain primary document published in 1552 condemning Spanish colonial violence, foundational for analyzing early modern human rights debates and colonial historiography.
+
+### Modern Latin American History: Independence to the Present
+
+Traces the path from nineteenth-century independence struggles and caudillismo through twentieth-century state formation, populist experiments, military dictatorships, and contemporary democratic transitions.
+
+[Born in Blood and Fire: A Concise History of Latin America (W. W. Norton / Internet Archive)](https://archive.org/details/borninbloodfirec00chas_0) - An accessible and widely assigned narrative history that surveys two centuries of political strife, social revolutions, and cultural transformation across the region.
+
+[Modern Latin America, 1808–Present: Revolution, Dictatorship, Democracy (MIT OpenCourseWare)](https://ocw.mit.edu/courses/21h-802-modern-latin-america-1808-present-revolution-dictatorship-democracy-spring-2005/) - Complements Chasteen's narrative with formal undergraduate course modules, analytical essay prompts, and thematic chronologies covering modern ideological struggles.
+
+[Modern Latin America Companion Website (Brown University Library)](https://library.brown.edu/create/modernlatinamerica/) - A dedicated digital companion to the Skidmore, Smith, and Green textbook offering curated primary-source documents, presidential speeches, and analytical chapter overviews organized by country.
+
+### Political Systems and Governance
+
+Analyzes state apparatuses, presidentialism, civil-military dynamics, populist political movements, clientelism, and the challenges of sustaining democratic institutions in Latin America.
+
+[Latin American Politics and Development (Routledge)](https://books.google.com/books?isbn=9780813350509) - A comprehensive textbook offering thematic frameworks on political institutions followed by individual country chapters analyzing governance across Central and South America.
+
+[Understanding Latin American Politics (UNC Press / J. Murrey Atkins Library)](https://doi.org/10.5149/9781469652252_Weeks) - An open-access alternative to Kline, Wade, and Wiarda that investigates political regimes, democratization trajectories, international relations, and subaltern political participation.
+
+### Political Economy and Economic Development
+
+Studies commodity dependency, Import Substitution Industrialization (ISI), foreign debt shocks, structural adjustment programs, and contemporary debates regarding neo-extractivism.
+
+[The Puzzle of Latin American Economic Development (Rowman & Littlefield)](https://books.google.com/books?isbn=9781442212176) - The core undergraduate text exploring developmental models, macroeconomic stabilization, agricultural modernization, and trade integration across Latin America.
+
+[The Economic History of Latin America since Independence (Cambridge University Press / Internet Archive)](https://archive.org/details/economichistoryo0000bulm_f8b7) - Provides historical and quantitative depth to pair with Franko, charting long-term export cycles, currency arrangements, and institutional drivers of inequality since the 1820s.
+
+[The Economic Development of Latin America and Its Principal Problems (UN ECLAC Digital Repository)](https://repositorio.cepal.org/handle/11362/29973) - Raúl Prebisch's landmark 1950 open-access manifesto that introduced center-periphery theory and laid the intellectual foundation for Latin American structuralist economics.
+
+### Society, Anthropology, and Identity
+
+Examines societal structures across the continent, focusing on racial stratification, mestizaje, Indigenous revitalization, Afro-descendant identities, gender systems, and urban social movements.
+
+[The Anthropology of Latin America and the Caribbean (Routledge / Internet Archive)](https://archive.org/details/anthropologyofla0000sana) - A foundational anthropological textbook exploring agrarian change, internal migration, religious syncretism, and grassroots community organizing across regional field sites.
+
+[Race and Ethnicity in Latin America (Pluto Press / Internet Archive)](https://archive.org/details/raceethnicityin0000wade) - An essential monograph examining how scientific racism, nation-building ideologies of mixture, and modern multicultural reforms shape racial and ethnic identities; use alongside Sanabria to deepen theoretical literacy.
+
+[Black in Latin America (PBS / Henry Louis Gates, Jr.)](https://www.pbs.org/wnet/black-in-latin-america/) - A four-part documentary series and educational project tracing the history, cultural impact, and contemporary status of Afro-descendant populations in Brazil, Cuba, the Dominican Republic, Haiti, Mexico, and Peru.
+
+### Literature, Art, and Cultural Expression
+
+Investigates major aesthetic and narrative movements, including the Latin American literary "Boom," magical realism, social realism, testimonial literature, and visual arts, as vehicles of cultural critique and political expression.
+
+[The Cambridge Companion to Modern Latin American Culture (Cambridge University Press)](https://books.google.com/books?isbn=9780521636513) - A critical survey containing scholarly essays on visual art, muralism, cinema, popular music, architecture, and mass media across twentieth-century Latin America.
+
+[The Cambridge Companion to the Latin American Novel (Cambridge University Press)](https://books.google.com/books?isbn=9780521825337) - A specialized companion to King's cultural volume, tracing regional narrative traditions from the nineteenth-century nation-building novel through modern and postmodern fiction.
+
+Crash Course Latin American Literature (PBS Digital Studios / Complexly) - search "Crash Course Latin American Literature" on YouTube for a 13-episode introductory video series surveying prominent literary movements, magical realism, dictator novels, and feminist counter-narratives.
