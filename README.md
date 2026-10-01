@@ -5,15 +5,27 @@ description: Path to a free self-taught education in Latin American Studies!
 
 ## Introduction
 
-The Latin American Studies curriculum is a **complete education in Latin American Studies** using online materials.
+Latin American Studies is an inherently interdisciplinary field. Rather than looking at the region through a single academic lens, it synthesizes geography, history, political science, structural economics, anthropology, and cultural studies to understand Mexico, Central America, South America, and the Caribbean. Studying this region means engaging directly with the collisions and convergences of Indigenous civilizations, European colonization, the transatlantic slave trade, and modern anti-imperialist struggles. It offers indispensable mental models for analyzing global patterns of inequality, resource extraction, racial mixture, revolution, and democratic resilience.
 
-The interdisciplinary nature of the field draws from history, political science, anthropology, literature, economics, geography, and cultural studies, emphasizing the region's diversity, colonial legacies, independence movements, modernization, and contemporary issues.
+This curriculum is designed for self-directed adult learners, polymaths, and career-changers starting from scratch. No prior background in Latin American history, political economy, or Romance linguistics is required or assumed.
 
-Language proficiency (Spanish or Portuguese) is integrated throughout, as it is essential for primary sources and deeper engagement. Aim for intermediate reading/speaking proficiency by the end of the Core Phase.
+### How to Navigate This Curriculum
 
-## Communities
+The curriculum balances a structured chronological spine with modular thematic studies:
 
-- You can also interact through [GitHub issues](https://github.com/hocbigg/latin-american-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- **Language as a parallel track:** Working knowledge of Spanish or Portuguese transforms how you encounter the region. Language study is placed first, but it is meant to run in parallel with the rest of your reading rather than delaying it. Setting aside consistent time for listening and vocabulary building will steadily unlock regional media, untranslated primary sources, and historical archives.
+- **Establish spatial and historical foundations first:** Begin your thematic studies with the discipline's scope, regional geography, pre-Columbian civilizational systems, and modern history. Grasping the physical landscapes—from the Andean vertical ecology to the Amazon basin—and understanding the arc from colonial institutions to twentieth-century state formation provides the essential context required by later topics.
+- **Explore disciplinary pillars flexibly:** Once the modern historical baseline is established, the remaining subjects—governance, political economy, sociology/anthropology, and literature—can be studied in the order that best matches your focus. For instance, you might pair political economy directly with governance to trace how commodity booms shape presidential power, or examine social structures alongside literature to understand how writers addressed race and dictatorship.
+
+### Scope
+
+This document is strictly a foundational core. It covers the essential historical, institutional, and cultural literacy that every undergraduate student in the discipline is expected to master before specializing. It avoids narrow graduate methodology and hyper-specialized subfields in favor of canonical textbooks, open courseware, and foundational readers.
+
+Once you have completed this core foundation, you can expand your studies across the other guides in this series:
+
+- Explore specialized subfields such as decolonial theory, neo-extractivism, border regimes, and memory politics in [Advanced Topics](advanced_topics.md).
+- Engage with landmark primary texts, political manifestos, and theoretical monographs in [Readings](extras/readings.md).
+- Deepen your understanding through recorded university lectures, audio courses, and documentary series in [Courses](extras/courses.md).
 
 ## Curriculum
 
