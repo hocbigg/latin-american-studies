@@ -1,106 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/latin-american-studies/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="Advanced Topics curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/latin-american-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/latin-american-studies/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="Advanced Topics curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/latin-american-studies/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/latin-american-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/latin-american-studies/">Latin-American-Studies</a>
-<a href="/latin-american-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/latin-american-studies/extras/courses.html">Extra Courses</a>
-<a href="/latin-american-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/latin-american-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/latin-american-studies/">Latin American Studies</a></li>
+      <li><a href="/latin-american-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/latin-american-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/latin-american-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/latin-american-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
-<p><strong>Thematic and Regional Specializations</strong> (topics 9–14) are optional deeper tracks.  </p>
-<p>You do <strong>not</strong> need to study all of them (you can choose <strong>2–4</strong> tracks that interest them most after completing the Core).</p>
-<p>How to choose which ones to pursue:</p>
+<p>Learners who have completed the core undergraduate curriculum in Latin American Studies should select one or two specialization tracks aligned with their specific research focus, regional interests, or career objectives, rather than attempting to complete all five tracks.</p>
+<h3 id="specialization-tracks-index">Specialization Tracks Index</h3>
 <ul>
-<li>Pick topics that connect to questions or issues you already care about (for example, environment and climate, migration, gender and social change, Indigenous rights, or U.S. involvement in the region).</li>
-<li>Choose tracks that feel like natural extensions of something that surprised or excited you while studying the Core sections.</li>
-<li>If you’re unsure, start with one or two that seem most relevant to current events or personal interests.</li>
+<li><strong><a href="#decoloniality-indigenous-autonomy-and-afro-latin-politics">Decoloniality, Indigenous Autonomy, and Afro-Latin Politics</a>:</strong> Examines the modern/colonial matrix of power, Indigenous self-determination and plurinational statehood, and Afro-descendant territorial mobilizations across the Americas.</li>
+<li><strong><a href="#political-economy-neo-extractivism-and-environmental-justice">Political Economy, Neo-Extractivism, and Environmental Justice</a>:</strong> Investigates commodity export dependence, agrarian transformations, peasant movements, and grassroots resistance against extractive industries.</li>
+<li><strong><a href="#state-violence-authoritarianism-and-transitional-memory">State Violence, Authoritarianism, and Transitional Memory</a>:</strong> Analyzes Cold War counterinsurgency, revolutionary guerrilla struggles, human rights trials, and the politics of historical memory.</li>
+<li><strong><a href="#hemispheric-geopolitics-borders-and-transnational-migration">Hemispheric Geopolitics, Borders, and Transnational Migration</a>:</strong> Explores asymmetrical U.S.-Latin American relations, border externalization, clandestine migrant trails, and transnational illicit economies.</li>
+<li><strong><a href="#gender-feminist-political-ecology-and-queer-mobilizations">Gender, Feminist Political Ecology, and Queer Mobilizations</a>:</strong> Studies decolonial and community feminisms, structural gendered violence, feminist strike organizing, and LGBTQ+ legal rights expansion.</li>
 </ul>
-<p>You can study the specialization topics in any order you prefer – they build on the Core but do not depend heavily on each other.</p>
-<h2 id="thematic-and-regional-specializations">Thematic and Regional Specializations</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">#</th>
-<th>Topic</th>
-<th>Rationale</th>
-<th>Book / Text</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">9</td>
-<td>Indigenous Peoples and Movements</td>
-<td>Indigenous continuity, rights, and political mobilization.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://openknowledge.worldbank.org/handle/10986/23751">Indigenous Latin America in the Twenty-First Century</a></strong> (World Bank – open-access report/reader)</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td>Gender, Family, and Social Change</td>
-<td>Gender systems, feminism, care economies, and LGBTQ+ movements.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://lac.unwomen.org/en/digital-library/publications">UN Women – Latin America &amp; Caribbean Regional Reports</a></strong> (official portal with multiple reports)</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: center;">11</td>
-<td>U.S.–Latin American Relations</td>
-<td>Intervention, migration, trade, and diplomacy.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/beneathunitedsta00scho">Beneath the United States</a></strong> – Lars Schoultz (Internet Archive free borrow/digital scan)</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: center;">12</td>
-<td>Revolutions, Dictatorships, and Human Rights</td>
-<td>State violence, memory, truth commissions, and activism.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.oas.org/en/iachr/reports/thematic.asp">Inter-American Commission on Human Rights – thematic reports</a></strong> (official OAS/IACHR portal)</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: center;">13</td>
-<td>Environment, Extractivism, and Sustainability</td>
-<td>Deforestation, mining, climate vulnerability.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.unep.org/regions/latin-america-and-caribbean">UN Environment Programme – Latin America &amp; Caribbean portal</a></strong> (official UNEP regional hub)</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: center;">14</td>
-<td>Migration and Diaspora</td>
-<td>Transnationalism, remittances, identity formation.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.migrationpolicy.org/programs/latin-america-caribbean-initiative">Migration Policy Institute – Latin America regional profiles</a></strong> (MPI official initiative page with reports/profiles)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="decoloniality-indigenous-autonomy-and-afro-latin-politics">Decoloniality, Indigenous Autonomy, and Afro-Latin Politics</h2>
+<p>Investigates how colonial hierarchies persist within modern institutions, centering Indigenous and Afro-descendant theoretical paradigms, self-governance models, and struggles for racial and territorial justice.</p>
+<p>Decolonial Epistemology and the Modernity/Coloniality Matrix: <a href="https://books.google.com/books?isbn=9781405100861" target="_blank" rel="noopener noreferrer">The Idea of Latin America (Walter D. Mignolo / Wiley-Blackwell)</a> - Deconstructs "Latin America" as an imperial, Eurocentric geopolitical invention and outlines the epistemic shifts necessary to build decolonial alternatives.</p>
+<p>Indigenous Autonomy, Plurinationalism, and Customary Law: <a href="https://openknowledge.worldbank.org/handle/10986/23751" target="_blank" rel="noopener noreferrer">Indigenous Latin America in the Twenty-First Century: The First Decade (World Bank Open Knowledge Repository)</a> - An extensive open-access monograph analyzing legal recognition, demographic shifts, urban migration, and political mobilization across seventeen Latin American countries.</p>
+<p>Afro-Latin Formations and Ancestral Territorial Rights: <a href="https://doi.org/10.1017/9781316822883" target="_blank" rel="noopener noreferrer">Afro-Latin American Studies: An Introduction (Alejandro de la Fuente &amp; George Reid Andrews, Eds. / Cambridge University Press)</a> - A comprehensive open-access survey volume examining racial inequality, social thought, quilombo land rights, and cultural mobilizations across the African diaspora in Latin America.</p>
+<p>Afro-Latin Formations and Ancestral Territorial Rights: <a href="https://archive.org/details/afrolatinamerica0000andr" target="_blank" rel="noopener noreferrer">Afro-Latin America, 1800–2000 (George Reid Andrews / Internet Archive)</a> - A landmark historical survey tracing how Afro-descendants shaped nation-building, labor systems, and civil rights mobilizations across the hemisphere.</p>
+<h2 id="political-economy-neo-extractivism-and-environmental-justice">Political Economy, Neo-Extractivism, and Environmental Justice</h2>
+<p>Examines the structural reliance on natural resource extraction, the ecological and social conflicts generated by global commodity frontiers, and alternative paradigms of territorial governance.</p>
+<p>The Commodity Consensus and Neo-Extractivism: <a href="https://doi.org/10.1017/9781108752589" target="_blank" rel="noopener noreferrer">Neo-Extractivism in Latin America: Socio-Environmental Conflicts, the Territorial Turn, and New Political Narratives (Maristella Svampa / Cambridge University Press)</a> - An open-access study theorizing the shift from the Washington Consensus to the "Commodity Consensus" and documenting the eco-territorial resistance led by rural and Indigenous communities.</p>
+<p>Agrarian Reform, Peasant Resistance, and Agribusiness Frontiers: <a href="https://books.google.com/books?isbn=9780935028904" target="_blank" rel="noopener noreferrer">To Inherit the Earth: The Landless Movement and the Struggle for a New Brazil (Angus Wright &amp; Wendy Wolford / Food First Books)</a> - An in-depth political-economic and ethnographic study of Brazil's Landless Workers' Movement (MST) and its organized resistance to latifundia land concentration and industrial monoculture.</p>
+<p>Political Ecology of Resource Conflicts and Buen Vivir: <a href="https://books.google.com/books?isbn=9780292748620" target="_blank" rel="noopener noreferrer">Subterranean Struggles: New Dynamics of Mining, Oil, and Gas in Latin America (Anthony Bebbington &amp; Jeffrey T. Bury, Eds. / University of Texas Press)</a> - Examines how transnational extractive concessions transform Andean and Mesoamerican river basins, community institutions, and local livelihoods.</p>
+<p>Political Ecology of Resource Conflicts and Buen Vivir: <a href="https://books.google.com/books?isbn=9781773631769" target="_blank" rel="noopener noreferrer">Extractivisms: Politics, Economy and Ecology (Eduardo Gudynas / Fernwood Publishing)</a> - Systematizes the concept of extractivisms across South America, offering critical theoretical tools on modes of appropriation and the Andean constitutional philosophy of <em>Buen Vivir</em>.</p>
+<h2 id="state-violence-authoritarianism-and-transitional-memory">State Violence, Authoritarianism, and Transitional Memory</h2>
+<p>Analyzes the dynamics of systematic state terror during the Cold War, the strategies of armed revolutionary groups, and the complex institutional mechanisms of transitional justice and collective memory.</p>
+<p>Cold War State Terror and Transnational Repression: <a href="https://books.google.com/books?isbn=9780300254099" target="_blank" rel="noopener noreferrer">The Condor Trials: Transnational Repression and Human Rights in South America (Francesca Lessa / Yale University Press)</a> - A definitive archival and trial-ethnography investigation of Operation Condor's cross-border terror coordination and the decades-long legal campaigns that secured convictions against military perpetrators.</p>
+<p>Armed Revolutionary Insurgencies and Guerrilla Warfare: <a href="https://archive.org/details/guerrillasrevolu0000wick" target="_blank" rel="noopener noreferrer">Guerrillas and Revolution in Latin America: A Comparative Study of Insurgents and Regimes since 1956 (Timothy P. Wickham-Crowley / Princeton University Press / Internet Archive)</a> - The canonical comparative sociological study evaluating why guerrilla insurgencies succeeded in Cuba and Nicaragua but collapsed across Colombia, Guatemala, Peru, and Bolivia.</p>
+<p>Transitional Justice, Truth Commissions, and Human Rights Jurisprudence: <a href="https://ocw.mit.edu/courses/21a-442j-violence-human-rights-and-justice-fall-2014/" target="_blank" rel="noopener noreferrer">Violence, Human Rights, and Justice (MIT OpenCourseWare)</a> - An advanced syllabus and reading program examining state terror, anthropological perspectives on political violence, international human rights law, and post-authoritarian reconciliation.</p>
+<p>Transitional Justice, Truth Commissions, and Human Rights Jurisprudence: <a href="https://archive.org/details/nuncamsreportofa0000arge" target="_blank" rel="noopener noreferrer">Nunca Más: The Report of the Argentine National Commission on the Disappeared (CONADEP / Internet Archive)</a> - The foundational 1984 primary truth commission report establishing the factual and legal architecture of systematic forced disappearances in South America.</p>
+<h2 id="hemispheric-geopolitics-borders-and-transnational-migration">Hemispheric Geopolitics, Borders, and Transnational Migration</h2>
+<p>Explores how asymmetrical power relations between the United States and Latin America manifest through military interventions, border externalization policies, forced displacement, and transnational illicit flows.</p>
+<p>U.S. Imperialism, Interventions, and Hemispheric Hegemony: <a href="https://archive.org/details/beneathunitedsta00scho" target="_blank" rel="noopener noreferrer">Beneath the United States: A History of U.S. Policy Toward Latin America (Lars Schoultz / Harvard University Press / Internet Archive)</a> - A comprehensive diplomatic and intellectual history detailing the racialized and paternalistic premises guiding two centuries of U.S. interventions in Latin America.</p>
+<p>U.S. Imperialism, Interventions, and Hemispheric Hegemony: <a href="https://archive.org/details/empiresworkshopl00gran" target="_blank" rel="noopener noreferrer">Empire's Workshop: Latin America, the United States, and the Rise of the New Imperialism (Greg Grandin / Metropolitan Books / Internet Archive)</a> - Demonstrates how U.S. covert intervention in Central America during the late Cold War served as an ideological and tactical laboratory for modern imperial projection.</p>
+<p>Undocumented Migration Corridors and Border Necropolitics: <a href="https://books.google.com/books?isbn=9780520282759" target="_blank" rel="noopener noreferrer">The Land of Open Graves: Living and Dying on the Migrant Trail (Jason De León / University of California Press)</a> - A groundbreaking forensic and ethnographic study of U.S. border enforcement, detailing how the Sonoran Desert is utilized as an instrument of state violence against Latin American migrants.</p>
+<p>Illicit Transnational Economies and Narco-Geopolitics: <a href="https://books.google.com/books?isbn=9780807859056" target="_blank" rel="noopener noreferrer">Andean Cocaine: The Making of a Global Drug (Paul Gootenberg / University of North Carolina Press)</a> - A rigorous historical commodity study exploring how Andean coca was transformed into an illicit global industry and how prohibitionist policies catalyzed regional criminal networks.</p>
+<h2 id="gender-feminist-political-ecology-and-queer-mobilizations">Gender, Feminist Political Ecology, and Queer Mobilizations</h2>
+<p>Assesses gendered dynamics of power across the Americas, focusing on decolonial feminist theory, community-based anti-femicide organizing, and the legal recognition of LGBTQ+ rights.</p>
+<p>Decolonial, Indigenous, and Abya Yala Feminisms: "Toward a Decolonial Feminism" (María Lugones, <em>Hypatia: A Journal of Feminist Philosophy</em>, Vol. 25, No. 4, 2010) - A seminal essay formulating the concept of the coloniality of gender, demonstrating how European conquest violently imposed a hierarchical, binary gender system onto colonized societies.</p>
+<p>Decolonial, Indigenous, and Abya Yala Feminisms: <a href="https://books.google.com/books?isbn=9781137453006" target="_blank" rel="noopener noreferrer">Feminist Subversions: Thinking and Acting in Latin America (Breny Mendoza / Palgrave Macmillan)</a> - Explores Latin American and decolonial feminist theory, challenging Global North liberal feminism through Central American and Abya Yala political perspectives.</p>
+<p>Femicide, Structural Impunity, and Mass Feminist Mobilization: <a href="https://books.google.com/books?isbn=9781509562138" target="_blank" rel="noopener noreferrer">The War Against Women (Rita Laura Segato / Polity Press)</a> - A foundational anthropological intervention analyzing femicide in Latin America as an expressive language of territorial control, corporate extractivism, and patriarchal dominance.</p>
+<p>Femicide, Structural Impunity, and Mass Feminist Mobilization: <a href="https://books.google.com/books?isbn=9781788739689" target="_blank" rel="noopener noreferrer">Feminist International: How to Change Everything (Verónica Gago / Verso)</a> - Theorizes the mass strike movement spearheaded by #NiUnaMenos in Argentina, linking violence against women directly to financial extractivism and unpaid social reproduction.</p>
+<p>LGBTQ+ Rights Expansion and Sexual Citizenship: <a href="https://books.google.com/books?isbn=9781108995207" target="_blank" rel="noopener noreferrer">The Politics of LGBTQ Rights Expansion in Latin America and the Caribbean (Javier Corrales / Cambridge University Press)</a> - Analyzes why Latin America emerged as a global leader in same-sex marriage and gender identity legislation, detailing electoral incentives, judicial politics, and conservative backlashes.</p>
+<p>LGBTQ+ Rights Expansion and Sexual Citizenship: <a href="https://books.google.com/books?isbn=9780822960621" target="_blank" rel="noopener noreferrer">The Politics of Sexuality in Latin America: A Reader on Lesbian, Gay, Bisexual, and Transgender Rights (Javier Corrales &amp; Mario Pecheny, Eds. / University of Pittsburgh Press)</a> - An indispensable multidisciplinary reader collecting activist manifestos, legal rulings, and analytical chapters documenting decades of sexual minority organizing across the hemisphere.</p>
+    </article>
+  </main>
 
 </body>
 </html>
